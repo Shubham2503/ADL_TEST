@@ -18,4 +18,4 @@ jobs:
           key: ${{ secrets.KEY }}
           script: |
             sudo su
-            sudo /home/ubuntu/workflow/script.sh
+            /home/ubuntu/workflow/script.sh
